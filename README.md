@@ -1,1 +1,1 @@
-# landing-page-example
+This is a practice website landing page built on HTML and CSS.
