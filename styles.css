@@ -11,7 +11,7 @@ ul {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 4px 128px;
+    padding: 4px 192px;
 }
 
 .header{
@@ -28,4 +28,24 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 400;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0px;
+    gap: 12px;
+}
+
+.main-txt{
+    flex-wrap:wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.main-big{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin:0;
+    padding:0;
 }
