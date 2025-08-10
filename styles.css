@@ -115,13 +115,17 @@ ul {
 .quote{
     font-style:italic;
     font-weight: lighter;
-    padding: 48px 312px 0px 312px;
+    padding: 96px 312px 0px 312px;
 }
 
 .quote-by{
     justify-content: flex-end;
     font-weight: bold;
-    padding: 0px 312px 48px 312px;
+    padding: 0px 312px 96px 312px;
+}
+
+.quote p, .quote-by p{
+    margin: 0;
 }
 
 .call{
