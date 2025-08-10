@@ -72,3 +72,26 @@ ul {
     color: #1F2937;
     font-weight: 900px;
 }
+
+.info{
+    display: flex;
+    gap: 48px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.info-img{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info-img img{
+    border-radius: 10px;
+}
+
+.info li{
+    width: 200px;
+    text-align: center;
+    color: #3D3D3D;
+}
