@@ -78,6 +78,7 @@ ul {
     gap: 48px;
     flex-wrap:wrap;
     justify-content: center;
+    padding-bottom: 64px;
 }
 
 .info-img{
@@ -102,4 +103,23 @@ ul {
     background-color:#1F2937;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.quote, .quote-by{
+    display: flex;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+}   
+
+.quote{
+    font-style:italic;
+    font-weight: lighter;
+    padding: 48px 312px 0px 312px;
+}
+
+.quote-by{
+    justify-content: flex-end;
+    font-weight: bold;
+    padding: 0px 312px 48px 312px;
 }
