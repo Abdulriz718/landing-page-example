@@ -48,6 +48,7 @@ ul {
 .main{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 48px 0px;
     gap: 12px;
 }
@@ -63,6 +64,12 @@ ul {
     font-weight: 900;
     margin:0;
     padding:0;
+}
+
+.dog img{
+    flex-shrink: 1;
+    min-width: 0;
+    max-width: 400px;
 }
 
 .info-header{
